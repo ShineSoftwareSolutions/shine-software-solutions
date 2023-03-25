@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav
         className="navbar navbar-dark bg-gray-dark"
-        style={{ "background-color": "#e3f2fd" }}
+        style={{ "backgroundColor": "#e3f2fd" }}
       >
         <div className="Navbar">
           <img
@@ -17,7 +17,8 @@ const Navbar = () => {
           />
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/services">Our Services</NavLink>
+          <NavLink to="/services"> Our Services
+          </NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/login">Login</NavLink>
