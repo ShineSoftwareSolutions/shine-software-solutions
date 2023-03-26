@@ -17,7 +17,7 @@ const Navbar = () => {
             alt="logo"
           />
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/About">About</NavLink>
+          <NavLink to="/about">About</NavLink>
           <NavLink to="/services"> Our Services
           </NavLink>
           <NavLink to="/projects">Projects</NavLink>
