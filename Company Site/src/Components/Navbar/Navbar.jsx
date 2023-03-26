@@ -7,23 +7,25 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="navbar navbar-dark bg-gray-dark"
-        style={{ "backgroundColor": "#e3f2fd" }}
+        className="navbar  bg-#1A4D2E"
+        style={{ "backgroundColor": "#1A4D2E" }}
       >
         <div className="Navbar">
           <img
+          
             src="https://i.ibb.co/Dr9TFRy/Shine-Software-2-removebg-preview.png"
             alt="logo"
           />
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/About">About</NavLink>
           <NavLink to="/services"> Our Services
           </NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact</NavLink>
-          <NavLink to="/login">Login</NavLink>
+          {/* <NavLink to="/login">Login</NavLink> */}
         </div>
       </nav>
+      
     </>
   );
 };

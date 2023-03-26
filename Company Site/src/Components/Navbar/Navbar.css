@@ -1,5 +1,5 @@
 .navbar{
-    margin-top: 10px;
+    margin-top: px;
     padding: auto;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
@@ -12,27 +12,30 @@
     height: 50px;
     padding: 10px 10px 10px 10px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     text-align: center;
     font-size: 25px;
-    background-color:#D5CEA3 ;
+    background-color:#1A4D2E ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.Navbar:hover{
-    background-color: burlywood
-;
-}
+/* .Navbar:hover{
+    background-color: transparent;
+
+} */
 .Navbar>img{
     width: 13%;
 }
 .Navbar > a{
     text-decoration: none;
-    color: #3C2A21;
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
 }
 .Navbar > a:hover{
     transition: all 0.3s ease-in-out;
-    text-decoration-line: underline;
+    color: red;
+    /* text-decoration-line: underline; */
     
 }
 @media (max-width:720px) {
