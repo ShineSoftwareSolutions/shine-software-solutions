@@ -40,3 +40,49 @@
   right: 0;
   z-index: -1;
 }
+
+@media (max-width: 1180px) {
+  .main_box {
+  width: 100%;
+  display: flex;
+  background-color:#D5CEA3 ;
+  position: relative;
+  }
+  .subpart1 {
+  width: 50%;
+  height: 250px;
+  position: absolute;
+
+  top: 0;
+  left: 50;
+}
+.subpart1 > img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 5%;
+  background-color: blanchedalmond;
+  z-index: 12;
+}
+.subpart2 {
+  width: 50%;
+  height: 250px;
+  margin-right: 2px;
+  background-color: #3C2A21;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.subpart2 > h2{
+font-size: 15px;
+}
+.subpart2 > p{
+font-size: 15px;
+}
+}
