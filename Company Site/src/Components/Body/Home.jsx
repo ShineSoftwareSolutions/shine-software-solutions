@@ -23,19 +23,27 @@ const Home = () => {
           <button className="btn btn-outline-secondary">Hit me</button>
         </div>
       </div>
+      <div className="secondBox">
+        <div className="cl"></div>
+        <div className="heading">
+          <h2>
+            We build awesome futures through innovation and collective
+            knowledge.
+          </h2>
+        </div>
+      </div>
 
       <div className="secondPhase">
         <img
           src="https://www.updoertechnology.com/static/assets/images/index-meta.gif"
           alt=""
         />
-          <h2>
-            Our software development company is committed to providing
-            exceptional services to our clients. We understand that every
-            project is unique, and we work closely with our clients to ensure
-            that we fully understand their needs and goals.
-          </h2>
-        
+        <h2>
+          Our software development company is committed to providing exceptional
+          services to our clients. We understand that every project is unique,
+          and we work closely with our clients to ensure that we fully
+          understand their needs and goals.
+        </h2>
       </div>
     </>
   );

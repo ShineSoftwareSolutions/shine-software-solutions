@@ -5,9 +5,6 @@
   height: auto;
   margin: auto;
   margin-top: 10px;
-  /* 
-  border: 1px solid #000; */
-  background-color: #d5cea3;
   position: relative;
 }
 .subpart1 {
@@ -40,11 +37,36 @@
   right: 0;
   z-index: -1;
 }
+
+.secondBox{
+  width: 90%;
+  height: 70px;
+  margin-top: 30%;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 80px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cl {
+  border-left: 6px solid #3c2a21;
+}
+.heading{
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.heading > h2{
+  text-align: center;
+}
+
 .secondPhase{
   width: 100%;
   margin: auto;
-  margin-top: 50%;
   display: flex;
+  margin-top: 20px;
+  background-color: #D5CEA3;
   
 }
 .secondPhase > img{
@@ -53,17 +75,18 @@
 .secondPhase>h2{
   width: 50%;
   text-align: center;
+  justify-content: center;
   margin-top: 15%;
   font-weight: bold;
   font-style: italic;
   font-size: 35px;
 }
 
+
 @media (max-width: 1180px) {
   .main_box {
     width: 100%;
     display: flex;
-    background-color: #d5cea3;
     position: relative;
   }
   .subpart1 {
